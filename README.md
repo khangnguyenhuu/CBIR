@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# CBIR
-=======
+
+
 
 <h1 align="center">Content base image retrieval</h1>
 
@@ -16,4 +15,4 @@ Then we use text to text retrieval
 
 
 <a href="#top">Back to top</a>
->>>>>>> master
+
