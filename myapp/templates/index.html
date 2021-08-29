@@ -1,0 +1,14 @@
+<head>
+    <title>Image search engine</title>
+</head>
+
+<body>
+    
+    <form  action="{% url 'result' %}" method="post">
+        {% csrf_token %} 
+        <a>Image description</a>
+        <br>
+        <input type="text" name="query" value="{{ current_query }}">
+        <input type="submit" value="OK">
+    </form>
+</body>
